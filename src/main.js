@@ -6,27 +6,18 @@ import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import bModal from 'bootstrap-vue/es/components/modal/modal'
-import bModalDirective from 'bootstrap-vue/es/directives/modal/modal'
+import CustomNav from '@/components/CustomNav.vue';
 
-// This imports <b-modal> as well as the v-b-modal directive as a plugin:
-import { Modal } from 'bootstrap-vue/es/components'
-
-// This imports <b-card> along with all the <b-card-*> sub-components as a plugin:
-import { Card } from 'bootstrap-vue/es/components'
-
-// This imports directive v-b-scrollspy as a plugin:
-import { Scrollspy } from 'bootstrap-vue/es/directives'
-
+import { Modal, Card, Nav, Navbar } from 'bootstrap-vue/es/components'
 
 Vue.config.productionTip = false
 
+Vue.component('custom-nav', CustomNav)
+Vue.use(Nav)
+Vue.use(Navbar)
 Vue.use(Modal)
 Vue.use(Card)
-Vue.use(Scrollspy)
 Vue.use(BootstrapVue)
-Vue.component('b-modal', bModal)
-Vue.directive('b-modal', bModalDirective)
 
 /* eslint-disable no-new */
 new Vue({
