@@ -6,7 +6,7 @@
         tag="article"
         >
     <img :src="profile.src" width="50" >
-    <h3 style="text-align: left;">Summary</h3>
+    <h3 style="text-align: left;">Summary {{$route.params.id}}</h3>
     <p class="card-text" style="text-align: left;" v-html="profile.summary">
     </p>
     <h3 style="text-align: left;">Education</h3>

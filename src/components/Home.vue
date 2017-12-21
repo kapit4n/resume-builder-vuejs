@@ -5,6 +5,7 @@
       <b-card v-for="profile in profiles" :title="profile.name"
         :img-src="profile.src" img-top tag="article" style="max-width: 300px; display: inline-grid;" class="mb-4"
        >
+       <router-link to="/Resume/1" tag="button">GO</router-link>
         <p class="card-text">
           {{ profile.description }}
         </p>
