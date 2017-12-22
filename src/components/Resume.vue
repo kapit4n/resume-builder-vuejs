@@ -1,10 +1,8 @@
 <template>
   <div class="resume">
+    <custom-nav />
     <b-container class="bv-example-row">
-
-   <b-card :title="profiles[index].name"
-        tag="article"
-        >
+   <b-card :title="profiles[index].name"tag="article">
     <img :src="profiles[index].src" width="50" >
     <h3 style="text-align: left;">Summary {{$route.params.id}}</h3>
     <p class="card-text" style="text-align: left;" v-html="profiles[index].summary">
