@@ -1,5 +1,6 @@
 <template>
   <div class="resume">
+    
     <custom-nav />
     
     <b-container class="bv-example-row">
@@ -20,8 +21,8 @@
     <h3 style="text-align: left;">Hobbies and Interest</h3>
     <textarea v-model="hobbies" placeholder="add multiple lines"></textarea>
     </p>
-    
-    <b-button href="#" variant="primary">Save</b-button>
+
+    <b-button v-on:click="save">Save</b-button>
   </b-card>
   </b-container>
   </div>
@@ -30,9 +31,15 @@
 <script>
 export default {
   name: 'Resume',
-  data () {
-    return {
-      msg: this.name
+  data: {
+    summary: "",
+    education: "",
+    history: "",
+    hobbies: ""
+  },
+  methods: {
+    save: function(event) {
+      alert("Summary: " + this.summary);
     }
   }
 }
