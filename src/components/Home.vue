@@ -3,10 +3,10 @@
     <custom-nav />
     <b-container>
       <b-card v-for="profile in profiles" :title="profile.name"
-        :img-src="profile.src" img-top tag="article" style="max-width: 300px; display: inline-grid;" class="mb-4"
+        :img-src="profile.src" img-top tag="article" style="max-width: 300px; display: inline-grid; margin: 10px;" class="mb-4"
        >
        <router-link :to="{ name: 'Resume', params: { id: profile.id }}" tag="button">GO</router-link>
-        <p class="card-text">
+        <p class="card-text" style="height: 200px;">
           {{ profile.description }}
         </p>
       </b-card>
