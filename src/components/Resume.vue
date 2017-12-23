@@ -3,17 +3,23 @@
     <custom-nav />
     <b-container class="bv-example-row">
    <b-card :title="profiles[index].name"tag="article">
-    <img :src="profiles[index].src" width="50" >
-    <h3 style="text-align: left;">Summary {{$route.params.id}}</h3>
+    <div style="width: 100%; height: 200px; overflow: hidden;">
+      <img :src="profiles[index].banner" width="100%" style="" >
+    </div>
+    <h3 style="text-align: left; font-weight: 600;
+    font-family: 'Crimson Text', serif; text-transform: uppercase;
+">Summary</h3>
     <p class="card-text" style="text-align: left;" v-html="profiles[index].summary">
     </p>
-    <h3 style="text-align: left;">Education</h3>
+    <h3 style="text-align: left;font-weight: 600; font-family: 'Crimson Text', serif; text-transform: uppercase;">Education</h3>
     <p class="card-text" style="text-align: left;" v-html="profiles[index].skills">
     </p>
-    <h3 style="text-align: left;">Employment History</h3>
+    <h3 style="text-align: left;font-weight: 600; font-family: 'Crimson Text', serif; text-transform: uppercase;
+">Employment History</h3>
     <p class="card-text" style="text-align: left;" v-html="profiles[index].history">
     </p>
-    <h3 style="text-align: left;">Hobbies and Interest</h3>
+    <h3 style="text-align: left;font-weight: 600; font-family: 'Crimson Text', serif; text-transform: uppercase;
+">Hobbies and Interest</h3>
     <p class="card-text" style="text-align: left;" v-html="profiles[index].hobbies">
     </p>
     <b-button href="#" variant="primary">Edit</b-button>

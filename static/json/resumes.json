@@ -1,7 +1,8 @@
 {
   "resumes": [
   {
-    "src": "https://customjavadevelopment.files.wordpress.com/2015/11/which-is-better-java-or-scala.jpg",
+    "banner": "https://www.mytectra.com/interview-question/wp-content/uploads/2017/05/Spark-and-scala.jpg",
+    "icon": "https://customjavadevelopment.files.wordpress.com/2015/11/which-is-better-java-or-scala.jpg",
     "name": "Full Stack Scala Developer",
     "description": "I work with python in a ecommerce project by more than one year, I used jinja, javascript, jquery and boostrap with this project combined with python. I love how python simplifies the code.",
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
@@ -10,7 +11,8 @@
     "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
   },
   {
-    "src": "https://s3-ap-southeast-1.amazonaws.com/work.smartcasual.co/opportunities/header_imgs/33/medium.png",
+    "banner": "https://fusionconclave.com/images/java1.jpg",
+    "icon": "https://fusionconclave.com/images/java1.jpg",
     "name": "Full Stack Java Developer",
     "description": "I work with python in a ecommerce project by more than one year, I used jinja, javascript, jquery and boostrap with this project combined with python. I love how python simplifies the code.",
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
@@ -19,7 +21,8 @@
     "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
   },
   {
-    "src": "https://uploads.toptal.io/blog/hiring_guide/image/2/1_A.png",
+    "banner": "http://dreamsoft4u.com/images/python-development-banner.png",
+    "icon": "https://uploads.toptal.io/blog/hiring_guide/image/2/1_A.png",
     "name": "Full Stack Python Developer",
     "description": "I work with python in a ecommerce project by more than one year, I used jinja, javascript, jquery and boostrap with this project combined with python. I love how python simplifies the code.",
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
@@ -28,7 +31,8 @@
     "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
   },
   {
-    "src": "https://udemy-images.udemy.com/course/480x270/607218_a05a_2.jpg",
+    "banner": "http://tekality.com/wp-content/uploads/2012/06/banner-javascript.jpg",
+    "icon": "https://udemy-images.udemy.com/course/480x270/607218_a05a_2.jpg",
     "name": "Full Stack JavaScript Developer",
     "description": "I work with python in a ecommerce project by more than one year, I used jinja, javascript, jquery and boostrap with this project combined with python. I love how python simplifies the code.",
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
@@ -37,7 +41,8 @@
     "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
   },
   {
-    "src": "https://bs-uploads.toptal.io/blackfish-uploads/job_description_page/seo/og_image_file/og_image/1804/angular_job-01-eca8007a71c629ae2e8666a022150fa6.jpg",
+    "banner": "https://www.egrovesys.com/wp-content/uploads/2015/11/angular-banner.png",
+    "icon": "https://bs-uploads.toptal.io/blackfish-uploads/job_description_page/seo/og_image_file/og_image/1804/angular_job-01-eca8007a71c629ae2e8666a022150fa6.jpg",
     "name": "Angular js Developer",
     "description": "I work with python in a ecommerce project by more than one year, I used jinja, javascript, jquery and boostrap with this project combined with python. I love how python simplifies the code.",
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
@@ -46,7 +51,8 @@
     "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
   },
   {
-    "src": "https://qph.ec.quoracdn.net/main-qimg-ba62e642e112dc7ec2d1043faeb1a560",
+    "banner": "https://www.mycode.website/wp-content/uploads/2017/03/ReactBannerProject.png",
+    "icon": "https://qph.ec.quoracdn.net/main-qimg-ba62e642e112dc7ec2d1043faeb1a560",
     "name": "React js Developer",
     "description": "I work with python in a ecommerce project by more than one year, I used jinja, javascript, jquery and boostrap with this project combined with python. I love how python simplifies the code.",
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
