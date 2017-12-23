@@ -53,7 +53,7 @@ export default {
         {
           id: 6,
           src: 'https://qph.ec.quoracdn.net/main-qimg-ba62e642e112dc7ec2d1043faeb1a560',
-          name: 'Reacj js Developer',
+          name: 'React js Developer',
           description: 'I worked in personal projects'
         }
       ]
