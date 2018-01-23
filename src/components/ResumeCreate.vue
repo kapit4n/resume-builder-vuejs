@@ -3,20 +3,31 @@
     
     <custom-nav />
     <b-container class="bv-example-row">
-    <b-card title="NEW PROFILE" tag="article">
+    <b-card title="NEW RESUME" tag="article">
     
+    
+    <h5 style="text-align: left;">ICON</h5>
+    <b-form-input v-model="icon"
+                  type="text"
+                  placeholder="http"></b-form-input>
+    
+    <h5 style="text-align: left;">BANNER</h5>
+    <b-form-input v-model="banner"
+                  type="text"
+                  placeholder="http"></b-form-input>
+
     <h5 style="text-align: left;">SUMMARY</h5>
     <b-form-textarea id="summary"
                      v-model="summary"
-                     placeholder=""
+                     placeholder="Write the summary"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
     
     <h5 style="text-align: left;">SKILLS</h5>
-    <b-form-textarea id="education"
-                     v-model="education"
-                     placeholder=""
+    <b-form-textarea id="skills"
+                     v-model="skills"
+                     placeholder="Java, Python, ..."
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
@@ -24,14 +35,15 @@
     <h5 style="text-align: left;">EXPERIENCE</h5>
     <b-form-textarea id="history"
                      v-model="history"
-                     placeholder=""
+                     placeholder="Software developer in Dyamsoft"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
+
     <h5 style="text-align: left;">EDUCATION</h5>
     <b-form-textarea id="hobbies"
-                     v-model="hobbies"
-                     placeholder=""
+                     v-model="education"
+                     placeholder="Software developer in UMSS"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
@@ -39,7 +51,7 @@
     <h5 style="text-align: left;">ADDICTIONAL ACTIVITIES</h5>
     <b-form-textarea id="hobbies"
                      v-model="hobbies"
-                     placeholder=""
+                     placeholder="Football, Running, ..."
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
@@ -52,17 +64,24 @@
 </template>
 
 <script>
+
+
 export default {
-  name: 'Resume',
-  data: {
-    summary: '',
-    education: '',
-    history: '',
-    hobbies: ''
+  name: 'ResumeCreate',
+  data () {
+    return {
+      icon: '',
+      banner: '',
+      summary: '',
+      skills: '',
+      education: '',
+      history: '',
+      hobbies: ''
+    }
   },
   methods: {
     save: function (event) {
-      alert('Summary: ' + this.summary)
+      this.$router.push('/Resume/' + (Math.floor(Math.random() * (6 - 1 + 1)) + 1))
     }
   }
 }

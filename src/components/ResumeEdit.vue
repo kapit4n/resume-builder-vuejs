@@ -5,18 +5,28 @@
     <b-container class="bv-example-row">
     <b-card title="EDIT RESUME" tag="article">
     
+    <h5 style="text-align: left;">ICON</h5>
+    <b-form-input v-model="resume.icon"
+                  type="text"
+                  placeholder="http"></b-form-input>
+    
+    <h5 style="text-align: left;">BANNER</h5>
+    <b-form-input v-model="resume.banner"
+                  type="text"
+                  placeholder="http"></b-form-input>
+    
     <h5 style="text-align: left;">SUMMARY</h5>
     <b-form-textarea id="summary"
                      v-model="resume.summary"
-                     placeholder=""
+                     placeholder="write the summary"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
     
     <h5 style="text-align: left;">SKILLS</h5>
-    <b-form-textarea id="education"
+    <b-form-textarea id="skills"
                      v-model="resume.skills"
-                     placeholder=""
+                     placeholder="java, python, ..."
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
@@ -24,15 +34,15 @@
     <h5 style="text-align: left;">EXPERIENCE</h5>
     <b-form-textarea id="history"
                      v-model="resume.history"
-                     placeholder=""
+                     placeholder="Software developer"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
 
     <h5 style="text-align: left;">EDUCATION</h5>
-    <b-form-textarea id="hobbies"
+    <b-form-textarea id="education"
                      v-model="resume.education"
-                     placeholder=""
+                     placeholder="Software developer in UMSS"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
@@ -40,7 +50,7 @@
     <h5 style="text-align: left;">ADDICTIONAL ACTIVITIES</h5>
     <b-form-textarea id="hobbies"
                      v-model="resume.hobbies"
-                     placeholder=""
+                     placeholder="football, running, ..."
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
@@ -67,7 +77,7 @@ export default {
   },
   methods: {
     save: function (event) {
-      alert('Summary: ' + this.summary)
+      this.$router.push('/Resume/' + (this.index + 1))
     }
   }
 }
