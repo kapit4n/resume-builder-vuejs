@@ -8,7 +8,8 @@
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
     "history": "- Web site and web application development based on Ruby on Rails and recently Elixir/Phoenix<br> - Desktop software for Mac and Windows, mostly PDF processing tools<br> - Enterprise systems in the Telecommunication industry, based on J2EE technologies<br> - Embedded systems and appliances with custom hardware<br>",
     "hobbies": "I am a quick learner and I really enjoy learning something new on every project I work on. The more challenging the project is, the more I enjoy working on it. less",
-    "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
+    "education": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>",
+    "skills": "scala, play framework, finagle, linq, html, css, scrum, web development, sublime text"
   },
   {
     "banner": "https://fusionconclave.com/images/java1.jpg",
@@ -18,7 +19,8 @@
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
     "history": "- Web site and web application development based on Ruby on Rails and recently Elixir/Phoenix<br> - Desktop software for Mac and Windows, mostly PDF processing tools<br> - Enterprise systems in the Telecommunication industry, based on J2EE technologies<br> - Embedded systems and appliances with custom hardware<br>",
     "hobbies": "I am a quick learner and I really enjoy learning something new on every project I work on. The more challenging the project is, the more I enjoy working on it. less",
-    "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
+    "education": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>",
+    "skills": "java, hibernate, jpa, eclipse, html, css, scrum, web development"
   },
   {
     "banner": "http://dreamsoft4u.com/images/python-development-banner.png",
@@ -28,7 +30,8 @@
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
     "history": "- Web site and web application development based on Ruby on Rails and recently Elixir/Phoenix<br> - Desktop software for Mac and Windows, mostly PDF processing tools<br> - Enterprise systems in the Telecommunication industry, based on J2EE technologies<br> - Embedded systems and appliances with custom hardware<br>",
     "hobbies": "I am a quick learner and I really enjoy learning something new on every project I work on. The more challenging the project is, the more I enjoy working on it. less",
-    "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
+    "education": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>",
+    "skills": "python, django, fanthon, html, css, scrum, web development"
   },
   {
     "banner": "http://tekality.com/wp-content/uploads/2012/06/banner-javascript.jpg",
@@ -38,7 +41,8 @@
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
     "history": "- Web site and web application development based on Ruby on Rails and recently Elixir/Phoenix<br> - Desktop software for Mac and Windows, mostly PDF processing tools<br> - Enterprise systems in the Telecommunication industry, based on J2EE technologies<br> - Embedded systems and appliances with custom hardware<br>",
     "hobbies": "I am a quick learner and I really enjoy learning something new on every project I work on. The more challenging the project is, the more I enjoy working on it. less",
-    "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
+    "education": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>",
+    "skills": "javascript, jquery, angular js, react js, html, css, scrum, web development"
   },
   {
     "banner": "https://www.egrovesys.com/wp-content/uploads/2015/11/angular-banner.png",
@@ -48,7 +52,8 @@
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
     "history": "- Web site and web application development based on Ruby on Rails and recently Elixir/Phoenix<br> - Desktop software for Mac and Windows, mostly PDF processing tools<br> - Enterprise systems in the Telecommunication industry, based on J2EE technologies<br> - Embedded systems and appliances with custom hardware<br>",
     "hobbies": "I am a quick learner and I really enjoy learning something new on every project I work on. The more challenging the project is, the more I enjoy working on it. less",
-    "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
+    "education": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>",
+    "skills": "angular js, typescript, javascript, html, css, scrum, web development"
   },
   {
     "banner": "https://www.mycode.website/wp-content/uploads/2017/03/ReactBannerProject.png",
@@ -58,7 +63,8 @@
     "summary": "I have been working on software development professionally since 2004. I like working on web application development, especially on systems requiring complex backends and cryptography. I also have fun working on projects which communicate with or run on custom hardware.<br> I have been working in the telecommunication industry and for 5 years I was employed by a large German SmartCard manufacturer.",
     "history": "- Web site and web application development based on Ruby on Rails and recently Elixir/Phoenix<br> - Desktop software for Mac and Windows, mostly PDF processing tools<br> - Enterprise systems in the Telecommunication industry, based on J2EE technologies<br> - Embedded systems and appliances with custom hardware<br>",
     "hobbies": "I am a quick learner and I really enjoy learning something new on every project I work on. The more challenging the project is, the more I enjoy working on it. less",
-    "skills": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>"
+    "education": "- Website development, both front-end (HTML/CSS/JS) and backend (Rails/Elixir/PHP)<br> - Desktop application development in Java/JavaFX<br> - Mobile application development for Android, iPhone<br> - Knowledge of cryptographic schemes for authentication, signing, encryption, etc<br> - Development of Javacard based applets<br> - Linux system administration<br>",
+    "skills": "react js, javascript, typescript, react-boostrap, html, css, scrum, web development"
   }
 ]
 }

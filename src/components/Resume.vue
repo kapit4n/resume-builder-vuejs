@@ -10,16 +10,19 @@
       font-family: 'Crimson Text', serif; text-transform: uppercase;">Summary</h3>
       <p class="card-text" style="text-align: left;" v-html="profiles[index].summary">
       </p>
+      <h3 style="text-align: left;font-weight: 600; font-family: 'Crimson Text', serif; text-transform: uppercase;">Skills</h3>
+      <p class="card-text" style="text-align: left;" v-html="profiles[index].skills">
+      </p>
       <h3 style="text-align: left;font-weight: 600; font-family: 'Crimson Text', serif; text-transform: uppercase;">Experience</h3>
       <p class="card-text" style="text-align: left;" v-html="profiles[index].history">
       </p>
       <h3 style="text-align: left;font-weight: 600; font-family: 'Crimson Text', serif; text-transform: uppercase;">Education</h3>
-      <p class="card-text" style="text-align: left;" v-html="profiles[index].skills">
+      <p class="card-text" style="text-align: left;" v-html="profiles[index].education">
       </p>
       <h3 style="text-align: left;font-weight: 600; font-family: 'Crimson Text', serif; text-transform: uppercase;">Additional Activities</h3>
       <p class="card-text" style="text-align: left;" v-html="profiles[index].hobbies">
       </p>
-      <b-button href="#" variant="primary">Edit</b-button>
+      <b-button :href="'#/ResumeEdit/' + (index + 1)" variant="primary">Edit</b-button>
     </b-card>
   </b-container>
   </div>
