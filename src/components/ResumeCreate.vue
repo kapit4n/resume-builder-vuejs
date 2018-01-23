@@ -2,26 +2,49 @@
   <div class="resume">
     
     <custom-nav />
-    
     <b-container class="bv-example-row">
-    <b-card title="New Profile"tag="article">
+    <b-card title="NEW PROFILE" tag="article">
     
-    <h3 style="text-align: left;">Summary {{$route.params.id}}</h3>
-    <textarea v-model="summary" placeholder="add multiple lines"></textarea>
-    </p>
+    <h5 style="text-align: left;">SUMMARY</h5>
+    <b-form-textarea id="summary"
+                     v-model="summary"
+                     placeholder=""
+                     :rows="3"
+                     :max-rows="6">
+    </b-form-textarea>
     
-    <h3 style="text-align: left;">Education</h3>
-    <textarea v-model="education" placeholder="add multiple lines"></textarea>
-    </p>
+    <h5 style="text-align: left;">SKILLS</h5>
+    <b-form-textarea id="education"
+                     v-model="education"
+                     placeholder=""
+                     :rows="3"
+                     :max-rows="6">
+    </b-form-textarea>
     
-    <h3 style="text-align: left;">Employment History</h3>
-    <textarea v-model="history" placeholder="add multiple lines"></textarea>
-    </p>
+    <h5 style="text-align: left;">EXPERIENCE</h5>
+    <b-form-textarea id="history"
+                     v-model="history"
+                     placeholder=""
+                     :rows="3"
+                     :max-rows="6">
+    </b-form-textarea>
+    <h5 style="text-align: left;">EDUCATION</h5>
+    <b-form-textarea id="hobbies"
+                     v-model="hobbies"
+                     placeholder=""
+                     :rows="3"
+                     :max-rows="6">
+    </b-form-textarea>
     
-    <h3 style="text-align: left;">Hobbies and Interest</h3>
-    <textarea v-model="hobbies" placeholder="add multiple lines"></textarea>
-    </p>
-
+    <h5 style="text-align: left;">ADDICTIONAL ACTIVITIES</h5>
+    <b-form-textarea id="hobbies"
+                     v-model="hobbies"
+                     placeholder=""
+                     :rows="3"
+                     :max-rows="6">
+    </b-form-textarea>
+    
+  
     <b-button v-on:click="save">Save</b-button>
   </b-card>
   </b-container>
@@ -32,14 +55,14 @@
 export default {
   name: 'Resume',
   data: {
-    summary: "",
-    education: "",
-    history: "",
-    hobbies: ""
+    summary: '',
+    education: '',
+    history: '',
+    hobbies: ''
   },
   methods: {
-    save: function(event) {
-      alert("Summary: " + this.summary);
+    save: function (event) {
+      alert('Summary: ' + this.summary)
     }
   }
 }
