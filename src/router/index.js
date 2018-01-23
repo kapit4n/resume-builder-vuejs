@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import Resume from '@/components/Resume'
 import ResumeCreate from '@/components/ResumeCreate'
+import ResumeEdit from '@/components/ResumeEdit'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/ResumeCreate',
       name: 'ResumeCreate',
       component: ResumeCreate
+    },
+    {
+      path: '/ResumeEdit/:id',
+      name: 'ResumeEdit',
+      component: ResumeEdit
     },
     {
       path: '/hello',
