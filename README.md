@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+## Mockups
+![Check](https://github.com/kapit4n/resume-builder-vuejs/raw/master/mockups/resume-builder-resume-show.png
+)
+
 ## Build Setup
 
 ``` bash
