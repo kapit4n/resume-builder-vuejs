@@ -3,6 +3,10 @@
 > A Vue.js project
 
 ## Mockups
+### List
+![Check](https://github.com/kapit4n/resume-builder-vuejs/raw/master/mockups/resume-builder-home.png
+)
+### Profile Show
 ![Check](https://github.com/kapit4n/resume-builder-vuejs/raw/master/mockups/resume-builder-resume-show.png
 )
 
