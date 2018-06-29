@@ -2,7 +2,7 @@
   <div class="resume">
     <custom-nav />
     <b-container class="bv-example-row">
-    <b-card :title="profiles[index].name"tag="article">
+    <b-card :title="profiles[index].name" tag="article">
       <div style="width: 100%; height: 200px; overflow: hidden;">
         <img :src="profiles[index].banner" width="100%" style="" >
       </div>

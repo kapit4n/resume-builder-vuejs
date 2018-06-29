@@ -55,7 +55,6 @@
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
-    
   
     <b-button v-on:click="save">Save</b-button>
   </b-card>
@@ -64,7 +63,6 @@
 </template>
 
 <script>
-
 
 export default {
   name: 'ResumeCreate',

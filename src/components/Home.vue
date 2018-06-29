@@ -28,7 +28,7 @@ export default {
         },
         {
           id: 2,
-          src: 'https://s3-ap-southeast-1.amazonaws.com/work.smartcasual.co/opportunities/header_imgs/33/medium.png',
+          src: 'https://images.techhive.com/images/article/2016/01/img_1626-100640300-large.jpg',
           name: 'Full Stack Java Developer',
           description: 'I work with JavaScript project by more thatn 2 years, I have some personal project where I could use javascript framework like angular, reactjs'
         },

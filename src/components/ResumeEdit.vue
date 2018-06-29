@@ -18,7 +18,7 @@
     <h5 style="text-align: left;">SUMMARY</h5>
     <b-form-textarea id="summary"
                      v-model="resume.summary"
-                     placeholder="write the summary"
+                     placeholder="Write the summary"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
